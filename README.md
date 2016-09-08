@@ -1,0 +1,21 @@
+- login menggunakan twitter (belum nyediakan yg lain)
+- search buku (tar pake API goodreads.com, silakan lihat tampilan searchnya dan listnya, tiru aja)
+- tambah buku yg disearch ke bookshelf (koleksi buku yg dimiliki user, misalnya Harry Potter jilid 7, Laskar Pelangi, dll)
+- jadikan buku di bookshelf jadi exchanged (misalnya buku Laskar Pelangi mau ditawarkan untuk ditukarkan ke orang lain)
+- kalo mindahin bookshelf ke exchanged user punya pilihan untuk dishare pake twitter apa ga
+- jadikan buku di exchanged jadi bookshelf lagi (ga jadi ditukerin)
+- orang lain bisa ngajak tukeran buku exchanged orang lain dengan buku exchanged punya sendiri
+- bisa dilihat siapa saja & buku apa aja yg pengen tukeran (bisa diaccept, atau direject)
+- kalo accept buku otomatis masuk ke bookshelf lawan tukeran (urusan metode pengiriman / perjanjian tukeran diatur user)
+- buku exchanged punya fitur komentar di bawahnya
+- {jadi tiap user punya 2 rak : bookshelf (list koleksi buku) sama exchanged(buku yg ditawarkan buat dituker) buku bisa dipindah dari bookshelf ke exchanged atau sebaliknya}
+- penamaan bookshelf / exchanged boleh diganti kalo punya ide
+- ada fitur search user lain, bisa juga lihat user lain beserta bookshelf dan exchanged yang dimilikinya
+- {halaman aplikasi : Halaman Utama, Halaman Login, Halaman User Sendiri (Profile), Halaman User Orang, Halaman Search / List, Halaman Bookshelf, Halaman Exchanged}
+- Halaman Utama : list buku-buku exchanged milik orang sedunia (ada link ke Halaman User Sendiri, search buku, search user lain) 
+- Halaman Login : tombol login by twitter doang tar masuk ke Halaman Utama
+- Halaman User Sendiri (Profile) : berisi link twitternya, foto, nama, kontak, link ke Halaman Bookshelf, link ke Halaman Exchanged (boleh digabung)
+- Halaman User Orang : Kaya Halaman User Sendiri tapi ga ada tombol editnya
+- Halaman Search / List : List buku hasil pencarian habis search buku di Halaman Utama
+- Halaman Bookshelf : List koleksi buku user (niru goodreads.com)
+- Halaman Exchanged : List koleksi buku user yg pengen ditukerin, masing-masing buku bisa diklik buat lihat atau buat komentar
